@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tomtom-international/web-sdk-maps": "^6.21.3",
+    "@tomtom-international/web-sdk-services": "^6.21.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
