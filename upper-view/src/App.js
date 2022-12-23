@@ -3,15 +3,15 @@ import ReactStreetview from "react-streetview";
 
 class App extends React.Component {
   render() {
-    const googleMapsApiKey = "AIzaSyA4bN_JLbgMsrsaspEm1ebHDiTNNvE7DTA";
+    const googleMapsApiKey = process.env.MAP_API_KEY
 
     const streetViewPanoramaOptions = {
       position: { lat: 27.289821, lng: -82.481325 },
-      pov: { heading: 100, pitch: 0 },
+      pov: { heading: 0, pitch: 0 },
       zoom: 1,
-      addressControl: false,
-      showRoadLabels: false,
-      zoomControl: false
+      addressControl: true,
+      showRoadLabels: true,
+      zoomControl: true
     };
 
     return (
