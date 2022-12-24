@@ -1,8 +1,8 @@
-import { raceDict, mocodesDict, dayOfWeek } from "../arr"
+import { raceDict, mocodesDict, dayOfWeek } from "../../constant/data"
 import { Tooltip } from "@material-ui/core"
-import capitalise from "lodash.capitalize"
+import {capitalise} from "lodash"
 
-export const ListDetail = ({ item }) => {
+const ListDetail = ({ item }) => {
   return (
     <>
       <div>{dayOfWeek[new Date(item.date_occ).getUTCDay()]}</div>
@@ -69,3 +69,5 @@ export const ListDetail = ({ item }) => {
     </>
   )
 }
+
+export default ListDetail

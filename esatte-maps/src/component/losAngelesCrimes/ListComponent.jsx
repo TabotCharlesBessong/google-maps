@@ -1,8 +1,8 @@
 import { Divider } from "@material-ui/core"
 import React from "react"
-import { CustomizedListItem } from "./CustomizedListItem"
+import  CustomizedListItem  from "./CustomizedListItem"
 
-export const ListComponent = ({
+const ListComponent = ({
   data,
   // open,
   // setOpen,
@@ -46,3 +46,5 @@ export const ListComponent = ({
     </>
   )
 }
+
+export default ListComponent

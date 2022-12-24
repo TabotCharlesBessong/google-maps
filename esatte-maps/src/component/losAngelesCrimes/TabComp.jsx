@@ -1,7 +1,7 @@
 import React from "react"
 import { Tabs, Tab, Typography } from "@material-ui/core"
-import { ListComponent } from "./ListComponent"
-import { StatisticsPage } from "./StatisticsPage"
+import  ListComponent  from "./ListComponent"
+import  StatisticsPage  from "./StatisticsPage"
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props

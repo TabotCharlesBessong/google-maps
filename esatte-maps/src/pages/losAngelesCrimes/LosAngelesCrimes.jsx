@@ -1,11 +1,9 @@
 import { useEffect, useState, useRef, useMemo } from "react"
 import { getData } from "../../api/losangeles"
 // import { areaNameArr, raceDict, genderArr } from "./arr"
-// import pink from "@material-ui/core/colors/pink"
-// import cyan from "@material-ui/core/colors/cyan"
+import pink from "@material-ui/core/colors/pink"
+import cyan from "@material-ui/core/colors/cyan"
 import {
-	cyan,
-	pink,
 	useMediaQuery,
 	createTheme,
 	ThemeProvider,
@@ -13,32 +11,20 @@ import {
 	Grid,
 	CssBaseline,
 } from "@material-ui/core";
-// import { useMediaQuery } from "@material-ui/core"
-// import { ThemeProvider, createTheme } from "@material-ui/core/styles"
-import "./styles.css"
-// import uniqBy from "lodash.uniqby"
-// import map from "lodash.map"
 
-// import { Container, Grid, CssBaseline } from "@material-ui/core"
+import "./styles.css"
+
 import Geocode from "react-geocode"
-// import Map from "./components/Map"
-// import MapFoo from "./components/MapFoo"
-// import SelectComp from "./components/SelectComp"
-import { SelectComp , TabComp, Footer, Header,AgeSliderComp,DateFilterComp,HourSliderComp,SelectRaceComp,Resources , Map} from "../../component";
+import { SelectComp , TabComp, Footer, Header,HourSliderComp,SelectRaceComp,Resources , Map} from "../../component";
 import {
 	crimeTypeArr,
 	areaNameArr,
 	raceDict,
 	genderArr,
 } from "../../constant/data";
-// import TabComp from "./components/TabComp"
-// import { Resources } from "./components/Resources"
-// import { Footer } from "./components/Footer"
-// import { Header } from "./components/Header"
-// import { AgeSliderComp } from "./components/AgeSliderComp"
-// import { DateFilterComp } from "./components/DateFilterComp"
-// import { HourSliderComp } from "./components/HourSliderComp"
-// import SelectRaceComp from "./components/SelectRaceComp"
+import AgeSliderComp from "../../component/losAngelesCrimes/AgeSliderComp";
+import DateFilterComp from "../../component/losAngelesCrimes/DateFilterComp";
+
 
 Geocode.setApiKey("AIzaSyDiJkhcYrOEBNyyLu6bwr9dB4qNVzh0jbU");
 

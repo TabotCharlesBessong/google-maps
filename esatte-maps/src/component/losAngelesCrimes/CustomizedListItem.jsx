@@ -1,9 +1,9 @@
 import React, { useState, useCallback } from "react"
 import { Collapse, List, ListItem } from "@material-ui/core"
-import capitalise from "lodash.capitalize"
-import { ListDetail } from "./ListDetail"
+import {capitalise} from "lodash"
+import  ListDetail  from "./ListDetail"
 
-export const CustomizedListItem = ({
+const CustomizedListItem = ({
   i,
   item,
   setCenterCoordinates,
@@ -69,3 +69,5 @@ export const CustomizedListItem = ({
     </>
   )
 }
+
+export default CustomizedListItem

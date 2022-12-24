@@ -1,8 +1,5 @@
-import { Slider, Typography } from "@material-ui/core"
-import { withStyles } from "@material-ui/core/styles"
-import { createTheme } from "@material-ui/core/styles"
-import { ThemeProvider } from "@material-ui/styles"
-import debounce from "lodash.debounce"
+import { Slider, Typography, withStyles,createTheme,ThemeProvider } from "@material-ui/core"
+import {debounce} from "lodash"
 
 const muiTheme = createTheme({
   overrides: {

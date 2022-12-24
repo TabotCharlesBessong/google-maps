@@ -5,7 +5,7 @@ import { countBy, map, sortBy } from "lodash"
 import {capitalise} from "lodash"
 import { raceDict } from "../../constant/data"
 
-export const StatisticsPage = ({ data, area, race, gender, crimeType }) => {
+const StatisticsPage = ({ data, area, race, gender, crimeType }) => {
   const determineRace = (race) => {
     return raceDict[race]
   }
@@ -181,3 +181,5 @@ export const StatisticsPage = ({ data, area, race, gender, crimeType }) => {
     </>
   )
 }
+
+export default StatisticsPage

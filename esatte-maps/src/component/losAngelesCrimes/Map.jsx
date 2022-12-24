@@ -11,11 +11,10 @@ import {
   TrafficLayer
 } from "@react-google-maps/api"
 import Popup from "./Popup"
-import marker from "../marker1.svg"
-import markerSelected from "../marker2.svg"
-import { getLAGeoJson } from "../api"
-import { mapStyle } from "../mapStyle"
-import "../styles.css"
+import images from "../../constant/images"
+// import { getLAGeoJson } from "../api"
+import { mapStyle } from "./mapStyle"
+import "../../pages/losAngelesCrimes/styles.css"
 
 const containerStyle = {
   width: "100%",
@@ -149,7 +148,7 @@ const Map = ({
                       lng: item.lon === "0" ? Number(-118.24) : Number(item.lon)
                     }}
                     icon={{
-                      url: markerSelected
+                      url: images.marker2
                     }}
                     onMouseOver={() => {
                       setPopupInfo(item)
@@ -172,7 +171,7 @@ const Map = ({
                   // clusterer={clusterer}
                   // options={options}
                   icon={{
-                    url: marker
+                    url: images.marker1
                   }}
                   onMouseOver={() => {
                     setPopupInfo(item)

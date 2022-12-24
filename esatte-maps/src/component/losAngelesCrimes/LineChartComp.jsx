@@ -1,6 +1,6 @@
 import React from "react"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip } from "recharts"
-import { useWindowSize } from "../useWindowSize"
+import { useWindowSize } from "../../utility/useWindowSize"
 
 export default function LineChartComp({ data, height, yAxisWidth }) {
   const size = useWindowSize()

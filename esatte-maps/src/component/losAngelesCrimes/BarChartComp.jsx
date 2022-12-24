@@ -1,6 +1,6 @@
 import React from "react"
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip } from "recharts"
-import { useWindowSize } from "../useWindowSize"
+import { useWindowSize } from "../../utility/useWindowSize"
 
 export default function BarChartComp({ data, height, yAxisWidth }) {
   const size = useWindowSize()

@@ -1,7 +1,7 @@
 import React from "react"
 import { capitalise } from "lodash";
 
-import { ListDetail } from "./ListDetail"
+import  ListDetail  from "./ListDetail"
 
 function Popup({ popupInfo, setPopupInfo }) {
   return (

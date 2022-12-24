@@ -1,4 +1,4 @@
-import logo from "../logo.svg"
+import images from "../../constant/images"
 
 const Footer = ({ headerRef }) => {
   return (
@@ -39,7 +39,7 @@ const Footer = ({ headerRef }) => {
         >
           Back to top{" "}
         </div>
-        <img src={logo} height="20" width="20" alt="" />
+        <img src={images.logo} height="20" width="20" alt="" />
       </div>
     </div>
   )
