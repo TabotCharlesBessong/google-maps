@@ -16,7 +16,7 @@ const resourceArr = [
   }
 ]
 
-export const Resources = () => {
+const Resources = () => {
   return (
     <div style={{ marginTop: 40, marginBottom: 20 }}>
       <div>Resources:</div>
@@ -39,3 +39,6 @@ export const Resources = () => {
     </div>
   )
 }
+
+
+export default Resources

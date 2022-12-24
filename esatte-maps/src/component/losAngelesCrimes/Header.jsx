@@ -1,7 +1,7 @@
 import { IconButton, Tooltip, Typography } from "@material-ui/core"
 // import NotificationsIcon from "@material-ui/icons/Notifications"
 
-export const Header = ({ headerRef }) => {
+const Header = ({ headerRef }) => {
   return (
     <div
       ref={headerRef}
@@ -29,3 +29,5 @@ export const Header = ({ headerRef }) => {
     </div>
   )
 }
+
+export default Header

@@ -1,6 +1,6 @@
 import React, { useCallback } from "react"
 import { Select, MenuItem } from "@material-ui/core"
-import { raceDict } from "../arr"
+import { raceDict } from "../../constant/data"
 
 export default function SelectRaceComp({ title, arr, foo, setFoo }) {
   const determineRace = (race) => {

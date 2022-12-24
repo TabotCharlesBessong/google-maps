@@ -1,6 +1,6 @@
 import logo from "../logo.svg"
 
-export const Footer = ({ headerRef }) => {
+const Footer = ({ headerRef }) => {
   return (
     <div
       style={{
@@ -44,3 +44,5 @@ export const Footer = ({ headerRef }) => {
     </div>
   )
 }
+
+export default Footer

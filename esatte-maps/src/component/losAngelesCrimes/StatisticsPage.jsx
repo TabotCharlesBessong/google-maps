@@ -2,8 +2,8 @@ import BarChartComp from "./BarChartComp"
 import LineChartComp from "./LineChartComp"
 import { Typography } from "@material-ui/core"
 import { countBy, map, sortBy } from "lodash"
-import capitalise from "lodash.capitalize"
-import { raceDict } from "../arr"
+import {capitalise} from "lodash"
+import { raceDict } from "../../constant/data"
 
 export const StatisticsPage = ({ data, area, race, gender, crimeType }) => {
   const determineRace = (race) => {

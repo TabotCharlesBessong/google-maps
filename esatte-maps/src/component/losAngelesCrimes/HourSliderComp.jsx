@@ -42,7 +42,7 @@ for (let i = 0; i <= 24; i += 4) {
   marks.push({ value: i, label: i })
 }
 
-export const HourSliderComp = ({ hour, setHour }) => {
+const HourSliderComp = ({ hour, setHour }) => {
   const handleChange = debounce((event, newValue) => {
     setHour(newValue)
   }, 100)
@@ -93,3 +93,5 @@ export const HourSliderComp = ({ hour, setHour }) => {
     </div>
   )
 }
+
+export default HourSliderComp

@@ -1,5 +1,5 @@
 import React from "react"
-import capitalise from "lodash.capitalize"
+import { capitalise } from "lodash";
 
 import { ListDetail } from "./ListDetail"
 

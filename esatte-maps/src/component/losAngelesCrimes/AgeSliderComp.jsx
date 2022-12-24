@@ -42,7 +42,7 @@ for (let i = 0; i <= 99; i += 10) {
   marks.push({ value: i, label: i })
 }
 
-export const AgeSliderComp = ({ age, setAge }) => {
+const AgeSliderComp = ({ age, setAge }) => {
   const handleChange = debounce((event, newValue) => {
     setAge(newValue)
   }, 100)
@@ -93,3 +93,5 @@ export const AgeSliderComp = ({ age, setAge }) => {
     </div>
   )
 }
+
+export default AgeSliderComp

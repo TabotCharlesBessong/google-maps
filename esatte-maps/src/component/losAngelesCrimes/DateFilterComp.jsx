@@ -11,7 +11,7 @@ function getLastWeek() {
   return lastWeek
 }
 
-export const DateFilterComp = ({
+const DateFilterComp = ({
   selectedStartDate,
   selectedEndDate,
   setSelectedStartDate,
@@ -110,3 +110,5 @@ export const DateFilterComp = ({
     </>
   )
 }
+
+export default DateFilterComp
