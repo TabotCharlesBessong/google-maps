@@ -26,7 +26,7 @@ import AgeSliderComp from "../../component/losAngelesCrimes/AgeSliderComp";
 import DateFilterComp from "../../component/losAngelesCrimes/DateFilterComp";
 
 
-Geocode.setApiKey("AIzaSyDiJkhcYrOEBNyyLu6bwr9dB4qNVzh0jbU");
+Geocode.setApiKey("AIzaSyC31moz8nAhu41H9DN38B4I5bCI9Rq_jjc");
 
 const raceArr = Object.keys(raceDict)
 
