@@ -24,7 +24,7 @@ const center = { lat: 4.156, lng: 9.2632 };
 
 function App() {
 	const { isLoaded } = useJsApiLoader({
-		googleMapsApiKey: process.env.MAP_API_KEY,
+		googleMapsApiKey:import.meta.env.MAP_API_KEY,
 		libraries: ["places"],
 	});
 
